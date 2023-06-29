@@ -1,0 +1,22 @@
+{
+  "name": "Tarea3",
+  "version": "1.0.0",
+  "description": "calculadora backend",
+  "main": "index.js",
+  "type": "module",
+  "author": "ekeksita",
+  "license": "MIT",
+  "dependencies": {
+    "@koa/cors": "^4.0.0",
+    "body": "^5.1.0",
+    "koa": "^2.14.2",
+    "koa-body": "^6.0.1",
+    "koa-logger": "^3.2.1",
+    "logger": "^0.0.1",
+    "nodemon": "^2.0.22"
+  },
+  "scripts": {
+    "ya": "node BACKEND/index.js",
+    "dev": "nodemon BACKEND/index.js"
+  }
+}
